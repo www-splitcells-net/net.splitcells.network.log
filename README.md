@@ -7,4 +7,4 @@ in order to check and document the software's performance.
 
 ## Inventory
 
-`splitcells-XPS-15-9570`: Laptop of Mārtiņš Avots (Martins Avots)
+* `splitcells-XPS-15-9570`: Laptop of Mārtiņš Avots (Martins Avots)

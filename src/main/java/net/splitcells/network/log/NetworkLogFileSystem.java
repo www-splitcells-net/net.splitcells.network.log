@@ -16,12 +16,13 @@
 package net.splitcells.network.log;
 
 import net.splitcells.dem.environment.config.framework.OptionImpl;
-import net.splitcells.dem.resource.FileSystemView;
+import net.splitcells.dem.resource.FileSystem;
 
 import static net.splitcells.dem.resource.FileSystemViaClassResources.fileSystemViaClassResources;
+import static net.splitcells.dem.resource.FileSystemWriteWrapper.fileSystemWriteWrapper;
 
-public class NetworkLogFileSystem extends OptionImpl<FileSystemView> {
+public class NetworkLogFileSystem extends OptionImpl<FileSystem> {
     public NetworkLogFileSystem() {
-        super(() -> fileSystemViaClassResources(NetworkLogFileSystem.class, "net.splitcells", "network.log"));
+        super(() -> fileSystemWriteWrapper(fileSystemViaClassResources(NetworkLogFileSystem.class, "net.splitcells", "network.log")));
     }
 }

@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: EPL-2.0 OR GPL-2.0-or-later
+# SPDX-FileCopyrightText: Contributors To The `net.splitcells.*` Projects
+version = 1
+SPDX-PackageName = "net.splitcells.network.community"
+SPDX-PackageSupplier = "Mārtiņš Avots <martins.avots@splitcells.net>"
+SPDX-PackageDownloadLocation = "https://splitcells.net"
+
+[[annotations]]
+path = "**/*"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-License-Identifier = "EPL-2.0 OR GPL-2.0-or-later"
